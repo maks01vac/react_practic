@@ -3,9 +3,9 @@ import { BsCheck } from 'react-icons/bs'
 import './CheckBox.css'
 import cn from 'classnames'
 
-const CheckBox = ({ isComplited }) => {
+const CheckBox = ({ isComplited, ...props }) => {
     return (
-        <button className={cn('checkBox', {
+        <button {...props} className={cn('checkBox', {
             'checkBoxActive': isComplited,
         })}>
             {isComplited &&

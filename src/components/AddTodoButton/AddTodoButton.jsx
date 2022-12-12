@@ -1,9 +1,9 @@
 import React from 'react';
 import './AddTodoButton.css'
 
-const AddTodoButton = () => {
+const AddTodoButton = ({...props}) => {
     return (
-        <button className='AddTodoButton'>
+        <button className='AddTodoButton' {...props}>
             <p>+</p>
         </button>
     );
