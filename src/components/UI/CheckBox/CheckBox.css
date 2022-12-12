@@ -1,0 +1,21 @@
+.checkBox{
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid rgb(255, 106, 218);
+    border-radius: 20%;
+    transition: 0.5s;
+    margin: 10px;
+    background-color: inherit;
+    font-size: 30px;
+}
+
+.checkBox:hover{
+    background-color:rgb(255, 106, 218) ;
+}
+.checkBoxActive {
+    background-color:rgb(255, 106, 218) ;
+}
